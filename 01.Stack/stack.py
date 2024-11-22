@@ -34,10 +34,18 @@ class Stack:
                               self.top = self.top.next
                               return data
 
-# s = Stack()
+          def size(self):
+                    count = 0
+                    temp = self.top
+                    while temp is not None:
+                              count += 1
+                              temp = temp.next
+                    return count
+s = Stack()
 # s.push(1)
 # s.push(2)
 # s.push(3)
 # s.push(4)
 # s.push(5)
 # s.traverse()
+# s.size()
