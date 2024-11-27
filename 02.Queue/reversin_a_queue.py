@@ -1,7 +1,7 @@
 from collections import deque
  
 # Function to reverse the queue
- 
+
  
 def reversequeue(queue):
     Stack = []
